@@ -1,0 +1,11 @@
+node_modules/
+node_modules.old/
+.expo/
+dist/
+ios/
+android/
+.env
+.env.local
+*.log
+*.old
+package-lock.json.old

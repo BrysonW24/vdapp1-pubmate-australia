@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Pubmate Australia",
+    "slug": "pubmate-australia",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/pubmate-logo.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "pubmate",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vivacitydigital.pubmate",
+      "associatedDomains": [
+        "applinks:pubmate.app",
+        "applinks:www.pubmate.app"
+      ]
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vivacitydigital.pubmate",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "pubmate.app",
+              "pathPrefix": "/"
+            },
+            {
+              "scheme": "https",
+              "host": "www.pubmate.app",
+              "pathPrefix": "/"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/pubmate-favicon-2.png"
+    }
+  }
+}
